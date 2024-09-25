@@ -1,0 +1,19 @@
+.btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    width: 120px;
+    height: 50px;
+}
+
+.btn span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.dark {
+    background: hsl(209, 23%, 22%);
+    color: white;
+}

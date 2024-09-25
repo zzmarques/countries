@@ -1,0 +1,17 @@
+.container {
+    margin: auto 50px;
+    width: 1266px;
+    height: auto;
+}
+
+.dark {
+    background: #202c37;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin: auto;
+        width: 88%;
+    }
+}
